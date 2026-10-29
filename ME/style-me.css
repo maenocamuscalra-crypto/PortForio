@@ -1,0 +1,1288 @@
+@charset "utf-8";
+
+body {
+  font-family: "EB Garamond", "Zen Old Mincho", serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.midashi {
+    font-size: 65px;
+    margin-left: 560px;
+    margin-top: -75px;
+    font-weight: 400;
+}
+
+.midashi::after {
+  content: "";
+  display: block;
+  width: 470px; 
+  border-bottom: 2px dotted #000;
+  margin-top: -10px;
+  margin-left: -90px;
+
+}
+
+.ikon {
+    width: 60px;
+    height: 50px;
+    margin-left: 490px;
+    margin-top: 70px;
+}
+
+.me {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.bluerose {
+    width: 450px;
+    height: 600px;
+    margin-left: 340px;
+    margin-top: -400px;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+
+.pr {
+    text-align: right;
+    font-size: 16px;
+    margin-top: -170px;
+    margin-right: 50px;
+}
+
+.komidashi {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.midashi2 {
+    font-size: 65px;
+    margin-left: 620px;
+    margin-top: 300px;
+}
+
+.ikon2 {
+    width: 30px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 130px;
+}
+
+.title {
+    font-size: 32px;
+    margin-left: 225px;
+    margin-top: -45px;
+}
+
+.read-arrow2 {
+    display: none;
+}
+
+.read-arrow3 {
+    display: none;
+}
+
+.skills {
+    display: flex;
+    gap: 100px;
+    margin-top: -40px;
+}
+
+.read-arrow {
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.coding {
+    margin-left: -130px;
+}
+
+.desin2 {
+    margin-top: 20px;
+    margin-left: 180px;
+    font-size: 16px;
+}
+
+.coding2 {
+    margin-top: 20px;
+    margin-left: 180px;
+    font-size: 16px;
+}
+
+.soft {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.sof2 {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.circle1 {
+    width: 142px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.circle2 {
+    width: 142px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.circle3 {
+    width: 100px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.circle4 {
+    width: 105px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.circle5 {
+    width: 75px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.circle6 {
+    width: 130px;
+    height: 40px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.title2 {
+    font-size: 65px;
+    margin-left: 520px;
+    margin-top: 300px;
+}
+
+.STRENGTHS {
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
+
+.komidashi2 {
+    font-size: 24px;
+}
+
+.yokosen {
+    display: none;
+}
+
+.Communication1 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.Communication2 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.Communication3 {
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.Communication4 {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.tankyu {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.taiou {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.pink {
+    width: 500px;
+    height: 500ox;
+    margin-left: 900px;
+    margin-top: -500px;
+    opacity: 0.5;
+}
+
+.pink2 {
+    display: none;
+}
+
+.midashi3 {
+    font-size: 65px;
+    margin-left: 540px;
+    margin-top: 300px;
+}
+
+.umare {
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.u2001 {
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+.maru {
+    width: 20px;
+    height: 20px;
+    background-color: #898989;
+    margin-left: 270px;
+    border-radius: 50%;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.nakami {
+    font-size: 16px;
+    margin-left: 60px;
+    position: relative;
+    top: 20px
+}
+
+
+.u2019 {
+  display:flex;
+  align-items:center;
+  gap:20px;
+  margin-top: 60px;
+}
+
+.nakami2 {
+    font-size: 16px;
+    margin-left: 60px;
+    position: relative;
+    top: 10px
+}
+
+.u2021 {
+  display:flex;
+  align-items:center;
+  gap:20px;
+  margin-top: 40px;
+}
+
+.u2026 {
+  display:flex;
+  align-items:center;
+  gap:20px;
+  margin-top: 60px;
+}
+
+.midashi4 {
+    font-size: 65px;
+    margin-left: 640px;
+    margin-top: 300px;
+}
+
+.komidashi3 {
+    font-size: 16px;
+    margin-left: 642px;
+    margin-top: -15px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-top: 70px;
+    margin-left: 95px;
+}
+
+.goofy {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo1 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.setumei1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.setumei1 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.photo1:hover .setumei1 {
+  opacity: 1;
+}
+
+.setumei1-1 {
+    display: none;
+}
+
+.photo2 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.setumei2-1 {
+    display: none;
+}
+
+.cafe {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo2:hover .setumei2 {
+  opacity: 1;
+}
+
+.setumei2 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.setumei2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo3 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.setumei3-1 {
+    display: none;
+}
+
+.funny {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo3:hover .setumei3 {
+  opacity: 1;
+}
+
+.setumei3 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.setumei3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo4 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.pet {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo4:hover .setumei4 {
+  opacity: 1;
+}
+
+.setumei4 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.setumei4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.setumei4-1 {
+    display: none;
+}
+
+.photo5 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.hobby {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo5:hover .setumei5 {
+  opacity: 1;
+}
+
+.setumei5 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.setumei5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.setumei5-1 {
+    display: none;
+}
+
+.photo6 {
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+}
+
+.bae {
+    width: 400px;
+    height: 390px;
+    display: block;
+}
+
+.photo6:hover .setumei6 {
+  opacity: 1;
+}
+
+.setumei6 p {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.setumei6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.setumei6-1 {
+    display: none;
+}
+
+.last {
+    margin-top: 170px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 15px;
+    margin-top: -35px;
+    margin-left: 840px;
+    margin-bottom: 50px;
+}
+
+.kasen {
+    width: 1330px;
+    margin-top: 10px;
+}
+
+.last2 {
+    text-align: center;
+}
+
+.kasen p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 375px) {
+
+.midashi {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 145px;
+    position: relative;
+    width: fit-content;
+}
+
+.midashi::after {
+  content: "";
+  display: block;
+  width: 145px; 
+  border-bottom: 2px dotted #000;
+  margin-top: 0px;
+  margin-left: -30px;
+
+}
+
+.ikon {
+    width: 25px;
+    height: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.me {
+    width: 280px;
+    height: 170px;
+    display: block;
+    margin-left: 95px;
+    margin-top: 50px;
+}
+
+.aboutme {
+    width: 370px;
+    margin-left: 0px;
+}
+
+.bluerose {
+    width: 115px;
+    height: 155px;
+    margin-left: 30px;
+    margin-top: -100px;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+
+.pr {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.komidashi {
+    font-size: 16px;
+}
+
+.midashi2 {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 110px;
+}
+
+.ikon2 {
+    width: 14px;
+    height: 16px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.desin2 {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 330px;
+    margin-left: 0px;
+}
+
+.title {
+    font-size: 17px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+.read-arrow2 {
+    display: block;
+    width: 66px;
+    margin-left: 0px;
+}
+
+.read-arrow3 {
+    display: block;
+    width: 75px;
+    margin-left: 0px;
+}
+
+.read-arrow {
+    display: none;
+}
+
+.skills {
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.desin {
+    width: 330px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.soft {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.circle1 {
+    width: 100px;
+    height: 32px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.circle2 {
+    width: 111px;
+    height: 32px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.circle3 {
+    width: 80px;
+    height: 32px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.coding {
+    width: 330px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.coding2 {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 330px;
+    margin-left: 0px;
+    line-height: 1.5;
+}
+
+.sof2 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.circle4 {
+    width: 83px;
+    height: 30px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.circle5 {
+    width: 60px;
+    height: 30px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.circle6 {
+    width: 100px;
+    height: 30px;
+    background: #000000;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.STRENGTHS {
+  position: relative;
+  width: 340px;
+  height: 550px;
+  margin-left: 20px;
+}
+
+.Communication1 {
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.Communication2 {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.komidashi2 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.Communication3 {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.tankyu {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.Communication4 {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.taiou {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.pink {
+    display: none;
+}
+
+.pink2 {
+    display: block;
+    width: 200px;
+    height: 450px;
+
+    opacity: 0.3;
+    flex-direction: column;
+
+    margin-left: 155px;
+    margin-top: -500px;
+}
+
+.title2 {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.midashi3 {
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.umare {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    gap: 10px;
+    margin-left: -20px;
+}
+
+.yokosen {
+    display: block;
+    width: 17px;
+    height: 770px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.maru {
+    width: 10px;
+    height: 10px;
+    background-color: #898989;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.number {
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+.u2001 {
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.nakami {
+    font-size: 14px;
+    margin-left: 0px;
+    top: -15px
+}
+
+.u2019 {
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.nakami2 {
+    font-size: 14px;
+    margin-left: 0px;
+    top: -15px
+}
+
+.u2021 {
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.u2026 {
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.kiseki-content {
+    width: 330px;
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.midashi4 {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 70px;
+}
+
+.komidashi3 {
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: 0;
+}
+
+.like {
+    margin-left: -10px;
+    width: 375px;
+}
+
+.photo {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 0;
+    row-gap: 60px;
+    margin-top: 60px;
+    margin-left: 75px;
+    width: fit-content;
+}
+
+.goofy {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.setumei1 {
+    display: none;
+}
+
+.setumei1-1 {
+    position: static;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u01 {
+    font-size: 15px;
+}
+
+.photo1 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.photo2 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.cafe {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.setumei2 {
+    display: none;
+}
+
+.setumei2-1 {
+    position: static;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u02 {
+    font-size: 15px;
+}
+
+.funny {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.photo3 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.setumei3 {
+    display: none;
+}
+
+.setumei3-1 {
+    position: static;
+    display: block;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u03 {
+    font-size: 15px;
+}
+
+.u03-1 {
+    margin-top: 3px;
+}
+
+.pet {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.photo4 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.setumei4 {
+    display: none;
+}
+
+.setumei4-1 {
+    position: static;
+    display: block;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u04 {
+    font-size: 15px;
+}
+
+.hobby {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.photo5 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.setumei5 {
+    display: none;
+}
+
+.setumei5-1 {
+    position: static;
+    display: block;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u05 {
+    font-size: 15px;
+}
+
+.bae {
+    width: 250px;
+    height: 240px;
+    display: block;
+}
+
+.photo6 {
+    position: relative;
+    width: 300px; 
+    overflow: hidden;
+}
+
+.setumei6 {
+    display: none;
+}
+
+.setumei6-1 {
+    position: static;
+    display: block;
+    width: 250px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.u06 {
+    font-size: 15px;
+}
+
+.last {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+    margin-top: 160px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.last2 {
+    display: none;
+}
+
+}
