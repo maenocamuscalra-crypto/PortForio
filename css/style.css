@@ -1,0 +1,705 @@
+@charset "utf-8";
+
+body {
+  font-family: "EB Garamond", "Zen Old Mincho", serif;
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.top-rose {
+    width: 767px;
+    height: 767px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    font-size: 100px;
+    line-height: 0.9;
+    z-index: 2;
+}
+
+.circle-text {
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 45%;
+  overflow: visible;
+  animation: rotate-circle 30s linear infinite;
+}
+
+.title3 {
+  fill: #222;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+
+@keyframes rotate-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ikon {
+    width: 60px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.daimei1 {
+    font-size: 65px;
+    margin-left: 115px;
+    margin-top: -80px;
+}
+
+.daimei1::after {
+  content: "";
+  display: block;
+  width: 320px; 
+  border-bottom: 2px dotted #000;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+.shita {
+  height: 150px;
+  margin-left: 700px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.sakuhin1 {
+    width: 544px;
+    height: 394px;
+    margin-left: 20px;
+}
+
+.sakuhin2 {
+    width: 544px;
+    height: 394px;
+    margin-left: 20px;
+}
+
+.sakuhin1-haikei {
+    width: 594px;
+    height: 404px;
+    margin-left: 20px;
+    background-color: #E0E0E0;
+}
+
+.sakuhin {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 260px;
+    row-gap: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.sakuhin2-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #898989;
+}
+
+.midashi {
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 5px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.midashi::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.midashi:hover::after {
+  transform: scaleX(1);
+}
+
+.midashi1 {
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.midashi1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+/* カーソルを合わせたとき */
+.midashi1:hover::after {
+  transform: scaleX(1);
+}
+
+.syoukai {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.syoukai1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 22px;
+}
+
+.sakuhin3-haikei {
+    width: 594px;
+    height: 404px;
+    margin-left: 20px;
+    background-color: #ADADAD;
+}
+
+.sakuhin4-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #F1F1F1;
+}
+
+.sakuhin5-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #eaf0ea;
+}
+
+.sakuhin3 {
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.sakuhin4 {
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.sakuhin5 {
+    width: 350px;
+    height: 350px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.ikon2 {
+    width: 60px;
+    height: 50px;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+
+.daimei2 {
+    font-size: 65px;
+    margin-left: 960px;
+    margin-top: -75px;
+}
+
+.daimei2::after {
+  content: "";
+  display: block;
+  width: 430px; 
+  border-bottom: 2px dotted #000;
+  margin-top: -10px;
+  margin-left: -60px;
+}
+
+.naiyou {
+    background-color: #2C2C2C;
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.mephoto {
+    width: 600px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.whiterose {
+    width: 440px;
+    height: 440px;
+    display: block;
+    opacity: 0.3;
+    margin-left: 140px;
+}
+
+.syokai {
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    width: 550px;
+
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+    z-index: 2;
+}
+
+.syosai-left {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.read {
+    color: white;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 40px;
+
+    z-index: 2;
+    text-decoration: none;
+}
+
+.read-arrow {
+    display: block;
+    width: 260px;
+    margin-left: 30px;
+}
+
+.read-1 {
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    z-index: 3;
+    width: 260px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 60px;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.instagram:hover {
+  opacity: 0.6;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 15px;
+    margin-top: -35px;
+    margin-left: 830px;
+    margin-bottom: 50px;
+}
+
+.kasen {
+    width: 1330px;
+    margin-top: 10px;
+}
+
+.last2 {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.kasen p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 375px) {
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.top-rose {
+    width: 290px;
+    height: 290px;
+    margin-left: 50;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 48px;
+    line-height: 0.9;
+    z-index: 2;
+}
+
+.circle-text {
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  overflow: visible;
+  animation: rotate-circle 30s linear infinite;
+}
+
+.title3 {
+  fill: #222;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+}
+
+.shita {
+  height: 55px;
+  margin-left: 170px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.daimei1 {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: -30px;
+}
+
+.ikon {
+    width: 25px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+.daimei1::after {
+  content: "";
+  display: block;
+  width: 100px; 
+  border-bottom: 2px dotted #000;
+  margin-top: 0;
+  margin-left: -25px;
+}
+
+.sakuhin {
+    display: grid;
+    grid-template-columns: 350px;
+    row-gap: 100px;
+    margin-left: 0;
+    margin-top: 60px;
+}
+
+.sakuhin1 {
+    width: 320px;
+    height: 240px;
+    margin-left: 10px;
+}
+
+.sakuhin1-haikei {
+    width: 340px;
+    height: 230px;
+    margin-left: 10px;
+    background-color: #E0E0E0;
+}
+
+.sakuhin2 {
+    width: 320px;
+    height: 240px;
+    margin-left: 10px;
+}
+
+.sakuhin2-haikei {
+    width: 340px;
+    height: 230px;
+    margin-left: 10px;
+    background-color: #898989;
+}
+
+.sakuhin3 {
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-left: 105px;
+    width: 130px;
+    height: 185px;
+}
+
+.sakuhin4 {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 150px;
+    height: 190px;
+}
+
+.sakuhin3-haikei {
+  width: 340px;
+  height: 230px;
+  margin-left: 10px;
+  background-color: #ADADAD;
+}
+
+.sakuhin4-haikei {
+    width: 340px;
+    height: 230px;
+    margin-left: 10px;
+    background-color: #F1F1F1;
+}
+
+.sakuhin5-haikei {
+    width: 340px;
+    height: 230px;
+    margin-left: 10px;
+    background-color: #eaf0ea;
+}
+
+.sakuhin5 {
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 180px;
+    height: 190px;
+}
+
+.syoukai {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.syoukai1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.midashi1 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.midashi {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.naiyou {
+  background-color: #2C2C2C;
+  width: 340px;
+  height: 390px;
+  margin-left: 10px;
+  margin-top: 40px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.syokai {
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    width: 300px;
+
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+    z-index: 2;
+}
+
+.syosai-left {
+    width: 340;
+    height: 390;
+    position: relative;
+    overflow: visible;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read-arrow {
+    display: flex;
+    width: 110px;
+}
+
+.read-1 {
+    position: static;
+    width: 100%;
+    margin-left: 50;
+    margin-top: -50px;
+    z-index: 3;
+}
+
+.read {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.mephoto {
+    display: block;
+    width: 340px;
+    height: 290;
+    margin-top: 60px;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+.ikon2 {
+    width: 25px;
+    height: 20px;
+    margin-left: 215px;
+    margin-top: 130px;
+    transform: translateY(-8px);
+}
+
+.daimei2 {
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: -37px;
+}
+
+.daimei2::after {
+  content: "";
+  display: block;
+  width: 145px; 
+  margin-top: 2px;
+  margin-left: -35px;
+  border-bottom: 2px dotted #000;
+}
+
+.whiterose {
+    width: 350px;
+    height: 350px;
+    display: block;
+    opacity: 0.3;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.last {
+    display: flex;
+    margin-top: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 15px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+    margin-top: 160px;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.last2 {
+  display: none;
+}
+
+}
