@@ -1,0 +1,767 @@
+@charset "utf-8";
+
+body {
+  font-family: "EB Garamond", "Zen Old Mincho", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.midashi {
+    font-size: 65px;
+    margin-left: 610px;
+    margin-top: -75px;
+    font-weight: 400;
+}
+
+.midashi::after {
+  content: "";
+  display: block;
+  width: 350px; 
+  border-bottom: 2px dotted #000;
+  margin-top: -10px;
+  margin-left: -80px;
+
+}
+
+.ikon {
+    width: 60px;
+    height: 50px;
+    margin-left: 540px;
+    margin-top: 70px;
+}
+
+.ikon3 {
+    display: none;
+}
+
+.komidashi {
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.syoukai {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.sakuhin1 {
+    width: 100%;
+    height: 600px;
+    background-color: #eaf0ea;
+    margin-top: 70px;
+}
+
+.future {
+    width: 530px;
+    height: 530px;
+    margin-left: 430px;
+    margin-top: 40px;
+}
+
+.kuraiant {
+    display: flex;
+    font-size: 18px;
+    gap: 80px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.read-arrow {
+    width: 100px;
+    margin-left: 70px;
+}
+
+.seisakubi {
+    display: flex;
+    font-size: 18px;
+    gap: 85px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.read-arrow1 {
+    width: 100px;
+    margin-left: 190px;
+}
+
+.kikan {
+    display: flex;
+    font-size: 18px;
+    gap: 90px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.read-arrow2 {
+    width: 100px;
+    margin-left: 165px;
+}
+
+.mokuteki {
+    display: flex;
+    font-size: 18px;
+    gap: 90px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.read-arrow3 {
+    width: 100px;
+    margin-left: 165px;
+    margin-top: -25px;
+}
+
+.target {
+    display: flex;
+    font-size: 18px;
+    gap: 89px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.read-arrow4 {
+    width: 100px;
+    margin-left: 145px;
+    margin-top: -30px;
+}
+
+.turu {
+    display: flex;
+    font-size: 18px;
+    gap: 93px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.read-arrow5 {
+    width: 100px;
+    margin-left: 140px;
+}
+
+.seisaku {
+    width: auto;
+    height: 3100px;
+    background-color: #eaf0ea;
+    display: flex;
+    margin-top: 80px;
+    gap: 120px;
+}
+
+.PC {
+    width: 160px;
+    height: 2900px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.all {
+    margin-top: 50px;
+}
+
+.midashi2 {
+    font-size: 65px;
+    margin-left: 560px;
+    margin-top: -75px;
+    font-weight: 400;
+}
+
+.midashi2::after {
+  content: "";
+  display: block;
+  width: 470px; 
+  border-bottom: 2px dotted #000;
+  margin-top: -10px;
+  margin-left: -80px;
+
+}
+
+.ikon2 {
+    width: 60px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+.sonota {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 260px;
+    row-gap: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.sakuhin2-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #e0e0e0;
+}
+
+.sakuhin2 {
+    width: 544px;
+    height: 394px;
+    margin-left: 20px;
+}
+
+.midashi3 {
+    position: relative;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.midashi3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.midashi3:hover::after {
+  transform: scaleX(1);
+}
+
+.syoukai2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.sakuhin3-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #adadad;
+}
+
+.sakuhin3 {
+    width: 544px;
+    height: 394px;
+    margin-left: 20px;
+}
+
+.sakuhin4 {
+    width: 544px;
+    height: 394px;
+    margin-left: 20px;
+}
+
+.sakuhin4-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #f1f1f1;
+}
+
+.sakuhin5 {
+    width: 260px;
+    height: 334px;
+    margin-left: 170px;
+    margin-top: 35px;
+}
+
+
+.midashi1 {
+    position: relative;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.midashi1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.midashi1:hover::after {
+  transform: scaleX(1);
+}
+
+.syoukai1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.sakuhin4-haikei {
+    width: 594px;
+    height: 404px;
+    background-color: #f1f1f1;
+}
+
+.sakuhin4 {
+    margin-left: 170px;
+    margin-top: 30px;
+    width: 250px;
+    height: 350px;
+}
+
+.last {
+    margin-top: 370px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 15px;
+    margin-top: -35px;
+    margin-left: 840px;
+    margin-bottom: 50px;
+}
+
+.kasen {
+    width: 1330px;
+    margin-top: 10px;
+}
+
+.last2 {
+    text-align: center;
+}
+
+.kasen p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 375px) {
+
+.midashi {
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: -30px;
+    font-weight: 400;
+}
+
+.midashi::after {
+  content: "";
+  display: block;
+  width: 120px; 
+  border-bottom: 2px dotted #000;
+  margin-top: 0px;
+  margin-left: -30px;
+
+}
+
+.ikon {
+    width: 25px;
+    height: 20px;
+    margin-left: 140px;
+    margin-top: 35px;
+}
+
+.komidashi {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.syoukai {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.sakuhin1 {
+    height: 350px;
+    background-color: #eaf0ea;
+    margin-top: 50px;
+    width: 375px;
+}
+
+.future {
+    width: 310px;
+    height: 310px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.kuraiant {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 0;
+    gap: 10px;
+}
+
+.read-arrow {
+   display: none;
+}
+
+.ikon3 {
+    width: 14px;
+    height: 16px;
+    margin-left: 30px;
+    display: block;
+    margin-top: 5px;
+}
+
+.moji1 {
+    margin-top: -5px;
+    font-size: 16px;
+}
+
+.seisakubi {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.read-arrow1 {
+    display: none;
+}
+
+.moji2 {
+    margin-top: -3px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.moji3 {
+    margin-top: -5px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.kikan {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.moji4 {
+    margin-top: -5px;
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.moji5 {
+    margin-top: -5px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.read-arrow2 {
+    display: none;
+}
+
+.mokuteki {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 0;
+    gap: 10px;
+}
+
+.read-arrow3 {
+    display: none;
+}
+
+.moji6 {
+    margin-top: -5px;
+    font-size: 14px;
+    margin-left: 55px;
+}
+
+.moji7 {
+    width: 280px;
+    margin-left: 55px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.target {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 0;
+    gap: 10px;
+}
+
+.read-arrow4 {
+    display: none;
+}
+
+.moji8 {
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 55px;
+}
+
+.moji9 {
+    width: 280px;
+    margin-left: 55px;
+    margin-top: -30px;
+    font-size: 16px;
+}
+
+.turu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 0;
+    gap: 10px;
+}
+
+.read-arrow5 {
+    display: none;
+}
+
+.moji10 {
+    margin-top: -15px;
+    font-size: 14px;
+    margin-left: 57px;
+}
+
+.moji11 {
+    margin-top: -5px;
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+.seisaku {
+    width: 100%;
+    height: 2450px;
+    background-color: #eaf0ea;
+    display: flex;
+    margin-top: 100px;
+    gap: 0px;
+
+    flex-direction: column;
+}
+
+.moji12 {
+    font-size: 14px;
+    margin-left: 43px;
+    margin-top: -5px;
+}
+
+.PC {
+    width: 130px;
+    height: 2670px;
+    margin-left: 125px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.all {
+    margin-top: 0px;
+}
+
+.ikon2 {
+    width: 25px;
+    height: 20px;
+    margin-left: 115px;
+    margin-top: 130px;
+    transform: translateY(-8px);
+}
+
+.midashi2 {
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: -37px;
+}
+
+.midashi2::after {
+  content: "";
+  display: block;
+  width: 145px; 
+  margin-top: 2px;
+  margin-left: -25px;
+  border-bottom: 2px dotted #000;
+}
+
+.sonota {
+    display: grid;
+    grid-template-columns: 350px;
+    gap: 0px;
+    row-gap: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.sakuhin2-haikei {
+    width: 340px;
+    height: 230px;
+    background-color: #e0e0e0;
+}
+
+.sakuhin2 {
+    width: 320px;
+    height: 240px;
+    margin-left: 10px;
+}
+
+.midashi3 {
+    position: relative;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.syoukai2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.sakuhin3-haikei {
+    width: 340px;
+    height: 230px;
+    margin-left: 0px;
+    background-color: #adadad;
+}
+
+.sakuhin3 {
+    width: 320px;
+    height: 240px;
+    margin-left: 8px;
+}
+
+.midashi1 {
+    position: relative;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.syoukai1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.sakuhin4-haikei {
+    width: 340px;
+    height: 230px;
+    background-color: #E0E0E0;
+}
+
+.sakuhin4 {
+    margin-left: 95px;
+    margin-top: 15px;
+    width: 150px;
+    height: 200px;
+}
+
+.sakuhin5 {
+    width: 160px;
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.last {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.clik {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 30px;
+    margin-top: 160px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.last2 {
+    display: none;
+}
+
+}
