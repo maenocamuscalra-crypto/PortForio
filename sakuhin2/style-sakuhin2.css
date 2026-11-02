@@ -171,6 +171,26 @@ body {
     display: none;
 }
 
+.moji13 {
+    display: none;
+}
+
+.moji14 {
+    display: none;
+}
+
+.moji15 {
+    display: none;
+}
+
+.moji16 {
+    display: none;
+}
+
+.moji17 {
+    display: none;
+}
+
 .PC {
     width: 900px;
     height: 4100px;
@@ -1064,5 +1084,16 @@ html {
 .last2 {
     display: none;
 }
+
+}
+
+@media screen and (min-width: 1441px) {
+
+body {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 }
