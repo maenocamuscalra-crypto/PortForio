@@ -377,6 +377,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 375px) {
 
 .midashi {
