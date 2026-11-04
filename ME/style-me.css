@@ -42,16 +42,23 @@ body {
 .bluerose {
     width: 450px;
     height: 600px;
-    margin-left: 340px;
-    margin-top: -400px;
+    position: absolute;
+    left: -150px;
+    bottom: -40%;
     z-index: 2;
     transform: rotate(-15deg);
+}
+
+.about-photo {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
 }
 
 .pr {
     text-align: right;
     font-size: 16px;
-    margin-top: -170px;
+    margin-top: 50px;
     margin-right: 50px;
 }
 
@@ -217,6 +224,10 @@ body {
     font-size: 24px;
 }
 
+.number1 {
+    font-size: 28px;
+}
+
 .yokosen {
     display: none;
 }
@@ -253,7 +264,7 @@ body {
 
 .pink {
     width: 500px;
-    height: 500ox;
+    height: 500px;
     margin-left: 900px;
     margin-top: -500px;
     opacity: 0.5;
@@ -710,8 +721,7 @@ html {
     width: 280px;
     height: 170px;
     display: block;
-    margin-left: 95px;
-    margin-top: 50px;
+    margin: 0;
 }
 
 .aboutme {
@@ -719,11 +729,20 @@ html {
     margin-left: 0px;
 }
 
+.about-photo {
+    position: relative;
+    width: 280px;
+    margin-left: 95px;
+    margin-top: 50px;
+}
+
 .bluerose {
     width: 115px;
     height: 155px;
-    margin-left: 30px;
-    margin-top: -100px;
+    position: absolute;
+    left: -10%;
+    bottom: -20%;
+    margin: 0;
     z-index: 2;
     transform: rotate(-15deg);
 }
@@ -731,12 +750,13 @@ html {
 .pr {
     text-align: left;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 20px;
 }
 
 .komidashi {
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .midashi2 {
@@ -918,6 +938,10 @@ html {
 .komidashi2 {
     font-size: 18px;
     margin-top: 30px;
+}
+
+.number1 {
+    font-size: 21px;
 }
 
 .Communication3 {
