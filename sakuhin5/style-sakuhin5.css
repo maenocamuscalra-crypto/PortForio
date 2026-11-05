@@ -388,6 +388,12 @@ html {
 
 @media screen and (max-width: 600px) {
 
+body {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .midashi {
     font-size: 20px;
     margin-left: 160px;

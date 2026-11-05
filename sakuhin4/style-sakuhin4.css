@@ -382,7 +382,7 @@ html {
 
 @media screen and (max-width: 600px) {
 
-.body {
+body {
     width: 375px;
     margin-left: auto;
     margin-right: auto;
