@@ -387,7 +387,7 @@ html {
 @media screen and (max-width: 600px) {
 
 body {
-        width: 600px;
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
         position: relative;
