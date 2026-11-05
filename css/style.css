@@ -387,10 +387,10 @@ html {
 @media screen and (max-width: 600px) {
 
 body {
-        width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .top {
@@ -444,14 +444,14 @@ body {
 
 .daimei1 {
     font-size: 20px;
-    margin-left: 165px;
+    margin-left: 55px;
     margin-top: -30px;
 }
 
 .ikon {
     width: 25px;
     height: 20px;
-    margin-left: 140px;
+    margin-left: 30px;
     margin-top: 60px;
 }
 
@@ -468,7 +468,7 @@ body {
     display: grid;
     grid-template-columns: 350px;
     row-gap: 50px;
-    margin-left: 120px;
+    margin-left: 20px;
     margin-top: 60px;
 }
 
@@ -582,7 +582,7 @@ body {
   background-color: #2C2C2C;
   width: 340px;
   height: 390px;
-  margin-left: 130px;
+  margin-left: 30px;
   margin-top: 40px;
   box-sizing: border-box;
 
@@ -651,14 +651,14 @@ body {
 .ikon2 {
     width: 25px;
     height: 20px;
-    margin-left: 355px;
+    margin-left: 225px;
     margin-top: 130px;
     transform: translateY(-8px);
 }
 
 .daimei2 {
     font-size: 20px;
-    margin-left: 380px;
+    margin-left: 250px;
     margin-top: -37px;
 }
 
@@ -686,7 +686,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    margin-left: 130px;
+    margin-left: 30px;
 }
 
 .contact {
