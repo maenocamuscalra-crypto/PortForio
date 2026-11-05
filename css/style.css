@@ -470,7 +470,7 @@ body {
     display: grid;
     grid-template-columns: 350px;
     row-gap: 50px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 60px;
 }
 
